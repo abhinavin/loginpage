@@ -39,3 +39,14 @@ button:hover {
   input:invalid {
   border: 2px solid red;
 }
+/* For devices with a maximum width of 600px */
+@media only screen and (max-width: 600px) {
+  /* Add CSS styles here */
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+p {
+  font-size: 1rem;
+}
